@@ -8,57 +8,61 @@ I'm interested in AI, machine learning, data and software engineering, particula
 
 - **Languages:** Python, SQL
 - **AI / ML:** PyTorch, machine learning, deep learning, model evaluation
-- **Data:** Pandas, NumPy, geospatial data, data preprocessing and analysis
+- **Data:** Pandas, NumPy, GeoPandas, geospatial data, data preprocessing and analysis
 - **Software:** Git, GitHub, object-oriented programming, Linux
+- **Systems:** sockets, message passing, PlantUML
 
 ## Projects
 
 ### Forest Growth Modelling
 
-**Purpose:** Use real forestry and geospatial data to investigate how well forest growth can be predicted and where machine learning can add value alongside traditional growth models.
+**Purpose:** Investigate whether forest inventory and geospatial data can improve predictions of forest growth alongside traditional ecological growth models.
 
-**Tech:** Python, PyTorch, GeoPandas, GIS data, machine learning
+**Tech:** Python, PyTorch, SciPy, GeoPandas, GIS data, SLURM
 
-- Built preprocessing and modelling workflows using forest inventory and geospatial datasets.
-- Compared traditional forest-growth approaches with machine learning methods.
-- Investigated physics-informed neural networks as a way of incorporating known growth behaviour into model training.
-- Gained experience working with noisy real-world scientific data, model evaluation and experimental design.
+- Built preprocessing and modelling workflows using real forestry and geospatial datasets.
+- Compared traditional Chapman-Richards growth modelling with machine learning approaches.
+- Investigated physics-informed neural networks for incorporating known forest-growth behaviour into model training.
+- Developed the work from earlier baseline experiments into my MSc dissertation workflow.
+- Worked with real-world scientific data, experimental design, model evaluation and reproducible ML pipelines.
 
-**Repository:** [forest_diss](https://github.com/shreeyagorasia/forest_diss)
+**Repositories:**  
+[Dissertation workflow](https://github.com/shreeyagorasia/forest_diss)  
+[Baseline modelling experiments](https://github.com/shreeyagorasia/reuben_data_my_experiments)
 
 ---
 
-### Forest Growth PINN Experiments
+### Sensor Track Fusion Simulator
 
-**Purpose:** Create a more structured and reproducible implementation for comparing a Chapman-Richards growth model with a physics-informed neural network.
+**Purpose:** A software engineering project based on a simplified multi-sensor tracking workflow, built to develop my object-oriented programming and system design skills.
 
-**Tech:** Python, PyTorch, SciPy, SLURM
+**Tech:** Python, OOP, sockets, PlantUML
 
-- Implemented a Chapman-Richards baseline and a PyTorch neural network with a physics-based loss term.
-- Built reusable utilities for data loading, preprocessing and model evaluation.
-- Restructured the work from notebook-based experiments into a clearer project layout.
-- Added support for running experiments as SLURM jobs.
-- Developed stronger software engineering skills around modularity, reproducibility and experiment organisation.
+- Designed radar, EW and optical sensor components that publish different track-message formats.
+- Built a sensor layer to receive and standardise messages into a common `SensorTrack` representation.
+- Used PlantUML to design the architecture, components and message flow before implementation.
+- Developing the system further with message passing, concurrency and threading.
 
-**Repository:** [reuben_data_my_experiments](https://github.com/shreeyagorasia/reuben_data_my_experiments)
+**Repository:** [LearningOOP_sensortracks](https://github.com/shreeyagorasia/LearningOOP_sensortracks)
 
 ---
 
 ### Letterboxd Wrapped
 
-**Purpose:** Explore personal film-watching data and turn it into useful summaries and visualisations.
+**Purpose:** Analyse personal film-watching data and turn it into useful summaries and visualisations.
 
 **Tech:** Python, data analysis, visualisation
 
-- Worked with real user-generated data rather than a prepared dataset.
-- Cleaned and analysed viewing-history data to identify patterns and trends.
-- Built summaries and visualisations to make the results easier to understand.
-- Practised turning a personal idea into a complete data project.
+- Cleaned and analysed user-generated viewing-history data.
+- Identified patterns and trends in film-watching behaviour.
+- Built summaries and visualisations to present the results clearly.
+- Used the project to practise taking a personal idea through to a complete data workflow.
 
 **Repository:** [Letterboxed-Wrapped](https://github.com/shreeyagorasia/Letterboxed-Wrapped)
 
 ## Currently
 
-- Improving my software engineering skills, particularly project structure, object-oriented programming and testing.
-- Building more practical projects that combine AI, data and software development.
+- Improving my software engineering skills, particularly object-oriented design, testing and project structure.
+- Developing the sensor tracking project further with networking and concurrency.
+- Building practical projects across AI, data and software engineering.
 - Exploring graduate opportunities across AI, machine learning, data, software engineering and related technical roles.
