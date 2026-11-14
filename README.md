@@ -6,7 +6,7 @@ I'm interested in AI, machine learning, data and software engineering, particula
 
 ## Skills
 
-- **Languages:** Python, SQL
+- **Languages:** Python, SQL, Java
 - **AI / ML:** PyTorch, machine learning, deep learning, model evaluation
 - **Data:** Pandas, NumPy, GeoPandas, geospatial data, data preprocessing and analysis
 - **Software:** Git, GitHub, object-oriented programming, Linux
